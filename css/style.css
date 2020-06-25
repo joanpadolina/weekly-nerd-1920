@@ -400,7 +400,7 @@ article h5 {
       article h4::after {
         transform: translate(-0.2em, 0em) rotate(-15deg); }
 
-  img.intro-img {
+  .intro-img {
     width: 26em;
     margin: unset;
     padding-left: 1em; } }
