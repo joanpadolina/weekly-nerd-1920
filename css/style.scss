@@ -656,8 +656,8 @@ article {
         }
     }
     .intro-img{
-        width: 20em;
-        top: -5.3em;
-        z-index: -1;
+        width: 20em !important;
+        top: -5.3em !important;
+        z-index: -1 !important;
     }
 }
