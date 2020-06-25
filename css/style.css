@@ -398,7 +398,8 @@ article h5 {
         transform: translate(-0.2em, 0em) rotate(-15deg); }
 
   .intro-img {
-    width: 29em;
-    top: -7.3em; } }
+    width: 20em;
+    top: -5.3em;
+    z-index: -1; } }
 
 /*# sourceMappingURL=style.css.map */
