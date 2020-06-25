@@ -55,6 +55,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap:wrap;
+    width: 100%;
+    text-align: right;
 
     h1 {
         font-size: 5em;
@@ -655,9 +658,9 @@ article {
             }
         }
     }
-    .intro-img{
-        width: 20em !important;
-        top: -5.3em !important;
-        z-index: -1 !important;
+    img{
+        width: 26em;
+        margin: unset;
+        padding-left:1em;
     }
 }
