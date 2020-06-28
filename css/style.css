@@ -132,18 +132,24 @@ footer {
 
 .navigation {
   display: flex;
-  justify-content: center; }
+  justify-content: space-between;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  height: 100%; }
 
 .bar {
-  width: 50px;
-  height: 10px;
-  border: 2px solid var(--main-orange);
-  margin: 6px;
+  width: 3%;
+  height: 100%;
   cursor: pointer;
-  transition: 0.4s; }
-
-.bar:hover {
-  background: var(--main-orange); }
+  transition: 0.4s;
+  position: relative;
+  background: #c0c4ba;
+  box-shadow: 0em 0em 1em #686868; }
+  .bar:hover {
+    background: #FF9A00BD;
+    width: 5%; }
 
 input[name="r"] {
   position: absolute;
